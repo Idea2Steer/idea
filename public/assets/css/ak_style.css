@@ -1,0 +1,412 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+        background: #fff;
+}
+.custom_border{
+    border: 0px !important;
+    padding: 0 !important;
+}
+input[switch]:checked + label::after {
+  left: 43px !important; 
+}
+input[switch] + label {
+  width: 65px !important; 
+}
+
+.c_icon{
+    text-align: center !important;
+    font-size: 30px !important;
+}
+.c_edit_icon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.c_eye_icon{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+.c_building_icon{
+    position: absolute;
+    right: 11px;
+    top: 52px;
+}
+.error{
+    margin: 0px !important;
+    font-size: 12px;
+}
+td{
+    white-space: normal !important;
+}
+.login_right_area img{
+    width: 100%;
+}
+.pad_0{
+    padding: 0px;
+}
+.login_left_area{
+    padding-top: 70px;
+    padding-left: 70px;
+}
+.login_left_area h2{
+    font-size: 38px;
+    color: #15265B;
+    margin-top: 35px;
+    font-weight: bold;
+}
+.login_left_area h6{
+    font-size: 16px;
+    color: #6D6D6D;
+     font-weight: 500;
+   }
+   .login_form input{
+       border-left: none;
+       border-color: #BABABA;
+       height: 65px;
+       padding: 0;
+       border-top-right-radius: 20px;
+       border-bottom-right-radius: 20px;
+   }
+   .login_form label{
+      width: 100%;
+      font-size: 18px;
+          font-weight: normal;
+   }
+   .login_left_area .input-group-addon{
+    border: 1px solid #BABABA;
+    border-right: 0;
+    width: 95px;
+    padding-left: 43px;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+   }
+   .login_left_area .input-group-addon img{
+    width: 30px;
+    padding-top: 12px;
+   }
+   .login_form button{
+    width: 100%;
+    background: #15265B;
+    color: #fff;
+    height: 65px;
+    border-radius: 20px;
+    margin-top: 35px;
+    font-size: 20px;
+   }
+   .login_google{
+    width: 100%;
+    background: #fff !important;
+    height: 80px;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    border: 1px solid #BABABA !important;
+    box-shadow: none;
+    color: #242021 !important;
+    font-weight: bold;
+   }
+   .login_google img{
+    width: 40px;
+    margin-right: 10px;
+   }
+   p.text_google_sign {
+   text-align: center;
+   font-size: 18px;
+   color: #242021;
+   font-weight: 300;
+   padding-top: 15px;
+   padding-bottom: 30px;
+   position: relative;
+   max-width: 600px;
+   margin: 10px auto;
+}
+.text_google_sign::after{
+    content: "";
+    background: #707070;
+    width: 160px;
+    height: 1px;
+    position: absolute;
+    left: 30px;
+    margin-top: -12px;
+    display: block;
+}
+.text_google_sign::before{
+    content: "";
+    background: #707070;
+    width: 160px;
+    height: 1px;
+    position: absolute;
+    right: 30px;
+    margin-top: 15px;
+    display: block;
+}
+.not_register{
+        padding-top: 30px;
+    font-weight: inherit;
+    font-size: 18px;
+}
+.not_register a {
+    font-weight: bold;
+    color: #15265B;
+}
+.form-check {
+    margin-top: 35px;
+}
+.form-check label{
+        float: left;
+    width: 50% !important;
+}
+.form-check a{
+        float: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #15265B !important;
+}
+p.copyright {
+    margin-top: 75px;
+    font-size: 18px;
+    color: #242021;
+}
+
+.vertical-menu{
+        border-radius: 20px;
+    background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#004e92+1,000428+99 */background: #004e92;
+    background: -moz-linear-gradient(top, #004e92 1%, #000428 99%);
+    background: -webkit-linear-gradient(top, #004e92 1%,#000428 99%);
+    background: linear-gradient(to bottom, #004e92 1%,#000428 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004e92', endColorstr='#000428',GradientType=0 );
+}
+.vertical-menu .vertical-menu-btn {
+    color: #fff;
+}
+#sidebar-menu ul li a {
+    color: #80A0BF !important;
+    }
+    span.logo-lg img {
+    width: 100px;
+}
+.logo-sm img {
+    width: 31px;
+    margin-left: -5px;
+}
+#sidebar-menu ul li a i {
+      color: #80A0BF;
+  }
+  span.badge.bg-ak-blue.rounded-pill {
+    background: #2D62ED;
+}
+.app-search input.form-control {
+    border: 1px solid #272D3B !important; 
+    border-radius: 20px;
+}
+i.fa.fa-search {
+    position: absolute;
+    top: 13px;
+    padding-left: 13px;
+}
+.metismenu li {
+    display: block;
+    width: 100%;
+    line-height: 3;
+    position: relative;
+}
+
+/*li.mm-active::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    height: 0px;
+    width: 0px;
+    right: 0px;
+    border-bottom: 13px solid white;
+    border-left: 30px solid transparent;
+    border-right: 0 solid transparent;
+}*/
+/*li.mm-active::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    height: 0px;
+    width: 0px;
+    right: 0px;
+    border-bottom: 13px solid white;
+    border-left: 30px solid transparent;
+    border-right: 0 solid transparent;
+}*/
+
+.dropdown.d-inline-block.ak_drp {
+    margin-left: 20px;
+}
+
+
+/*contact page*/
+
+.ak_select {
+    /*height: 50px;*/
+    border-radius: 10px;
+     font-size: 16px;
+    background-color: #F5F6F8;
+}
+.form_info {
+    padding-left: 35px;
+        padding-right: 35px;
+    margin-top: 30px;
+}
+.project_info{
+    padding-left: 35px;
+        padding-right: 35px;
+    margin-top: 30px;
+}
+.form_info.form_card {
+    box-shadow: 0px 4px 13px 0px #cbcdff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+
+.form_title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.form_card img{
+width: 48px;
+}
+.button_submit {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.button_submit button {
+    background-color: #15265B;
+}
+.project_profile img {
+    border: 4px solid #344582;
+    border-radius: 50px;
+}
+/*end contact page*/
+
+/*project mng*/
+.project_profile h3 {
+    margin-top: 20px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    color: #000;
+}
+.project_profile_add {
+    margin-top: 20px;
+}
+.project_profile_add button {
+    background: #15265B;
+    border-radius: 10px;
+}
+.edit_table_img{
+        width: 50px;
+        margin-right: 15px;
+}
+img.pencil {
+    width: 25px;
+}
+img.delete {
+    width: 25px;
+}
+.table-editable tr {
+    border-bottom: 1.2px solid #707070 !important;
+    border-top: 1.2px solid #0000 !important;
+}
+.steps  ul li a{
+       width: 90%;
+    border-radius: 15px;
+    text-align: center;
+}
+.profile_pic_sidebar{
+        width: 30px;
+        border-radius: 50px;
+}
+.profile_sidebar{
+    position: absolute !important;
+    bottom: 30px;
+}
+.profile_sidebar span{
+    color: #fff;
+}
+.card {
+    box-shadow: none !important;
+        border: none;
+}
+.card-body.ak_box {
+    box-shadow: 0px 0px 14px 0px #00336c30;
+}
+
+.bd-wizard-step-title img {
+    background: #677EC6;
+    padding: 7px;
+    border-radius: 50px;
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+}
+.current .bd-wizard-step-title img {
+    background: #15265B;
+}
+.custom_card{
+    margin-top: 14px;
+    border: 1px solid #f6f6f6 !important;
+    box-shadow: 0px 4px 13px 0px #cbcdff !important;
+
+}
+/*end project mng*/
+.vj_active{
+    background-color: #ffffff;
+    color: #274385 !important;
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+    margin-right: 0px !important;
+}
+
+/*serch bar*/
+.serch_result ul {
+    padding-left: 0;
+}
+.serch_result ul li:hover {
+    background: #f5f6ff;
+}
+.serch_result ul li{
+    list-style: none;
+    line-height: 2;
+    width: 100%;
+    padding-left: 30px;
+}
+.serch_result ul li a{
+    color: #000;
+}
+.serch_result {
+    display: none;
+        position: absolute;
+    background: #fff;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 24px;
+    padding-top: 15px;
+}
+/*End serch bar*/
+
+@media only screen and (max-width: 600px) and (min-width: 320px)  {
+.login_left_area {
+     padding-left: 0px !important;
+}
+.text_google_sign::after{
+    width: 80px;
+    }
+.text_google_sign::before{
+    width: 80px;
+    }
+
+.custom-table-scroll{
+    overflow-x: scroll;
+}    
+}
+
+
